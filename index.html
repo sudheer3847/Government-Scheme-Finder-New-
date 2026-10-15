@@ -1,0 +1,108 @@
+<div class="card">
+    <h2>🏛️ SchemeFinder Pro</h2>
+    <p>Discover government welfare benefits tailored just for you in seconds.</p>
+    
+    <form id="schemeForm">
+        <!-- Your Original Inputs -->
+        <div class="input-group">
+            <label for="age">Your Age</label>
+            <input type="number" id="age" placeholder="e.g., 22" required>
+        </div>
+
+        <div class="input-group">
+            <label for="income">Annual Income (₹)</label>
+            <input type="number" id="income" placeholder="e.g., 250000" required>
+        </div>
+
+        <div class="input-group">
+            <label for="category">Category / Profession</label>
+            <select id="category">
+                <option value="all">General / All Categories</option>
+                <option value="student">Student</option>
+                <option value="farmer">Farmer</option>
+            </select>
+        </div>
+
+        <!-- NEW INPUTS: Paste them right here, ABOVE the submit button -->
+        <div class="input-group">
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="all">All / Any</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="transgender">Transgender</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="state">State / UT</label>
+            <select id="state">
+                <option value="all">All India (Central Schemes)</option>
+                <option value="national">National Level</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="areaType">Area Type</label>
+            <select id="areaType">
+                <option value="all">Any / Both</option>
+                <option value="rural">Rural</option>
+                <option value="urban">Urban</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="socialCategory">Social Category</label>
+            <select id="socialCategory">
+                <option value="all">All / General</option>
+                <option value="sc">SC (Scheduled Caste)</option>
+                <option value="st">ST (Scheduled Tribe)</option>
+                <option value="obc">OBC (Other Backward Classes)</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="occupation">Occupation Status</label>
+            <select id="occupation">
+                <option value="all">All / Any</option>
+                <option value="salaried">Salaried Employee</option>
+                <option value="unorganized">Unorganized Worker / Laborer</option>
+                <option value="farmer">Farmer / Agriculture</option>
+                <option value="business">Business Owner / Vendor</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="economicBracket">Economic Bracket</label>
+            <select id="economicBracket">
+                <option value="all">All Brackets</option>
+                <option value="bpl">BPL (Below Poverty Line)</option>
+                <option value="ews">EWS (Economically Weaker Section)</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="disability">Disability Status (Divyangjan)</label>
+            <select id="disability">
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="maritalStatus">Marital Status</label>
+            <select id="maritalStatus">
+                <option value="all">All / Any</option>
+                <option value="single">Single / Unmarried</option>
+                <option value="married">Married</option>
+                <option value="widow">Widow / Widower</option>
+            </select>
+        </div>
+        <!-- END OF NEW INPUTS -->
+
+        <!-- Submit Button stays at the bottom inside the form -->
+        <button type="submit" class="btn">Find Eligible Schemes</button>
+    </form>
+  </div>
+  
